@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="904f4122-88ff-4925-bc90-608ce2ba8ae4" name="Changes" comment="create login servlet" />
+    <list default="true" id="904f4122-88ff-4925-bc90-608ce2ba8ae4" name="Changes" comment="update LoginServelet.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +176,7 @@
       <workItem from="1744303160509" duration="470000" />
       <workItem from="1746159873367" duration="1653000" />
       <workItem from="1746167569087" duration="1602000" />
-      <workItem from="1746209130492" duration="1160000" />
+      <workItem from="1746209130492" duration="1852000" />
     </task>
     <task id="LOCAL-00001" summary="create login page">
       <option name="closed" value="true" />
@@ -192,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746210226567</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update LoginServelet.java">
+      <option name="closed" value="true" />
+      <created>1746210674238</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746210674239</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +234,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create login page" />
     <MESSAGE value="create login servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="create login servlet" />
+    <MESSAGE value="update LoginServelet.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="update LoginServelet.java" />
   </component>
 </project>
