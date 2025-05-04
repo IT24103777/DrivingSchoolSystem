@@ -1,9 +1,11 @@
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+package com.drivingschool;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.annotation.*;
 import java.io.IOException;
 
+@WebServlet("/login")
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
@@ -12,8 +14,14 @@ public class LoginServlet extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-        // Your authentication logic here
-
-        response.sendRedirect("home.jsp");
+        // Simple validation (replace with database check later)
+        if("admin".equals(username) && "admin123".equals(password)) {
+            HttpSession session = request.getSession();
+            session.setAttribute("username", username);
+            response.sendRedirect("admin-dashboard.jsp");
+        } else {
+            request.setAttribute("error", "Invalid credentials");
+            request.getRequestDispatcher("login.jsp").forward(request, response);
+        }
     }
 }

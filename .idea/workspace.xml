@@ -10,7 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="904f4122-88ff-4925-bc90-608ce2ba8ae4" name="Changes" comment="update LoginServelet.java">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AdminServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin-dashboard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginServelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginServelet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/html/signup.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login/html/signup.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,14 +29,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IT24103821&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IT24103777/Driving_School_System.git&quot;,
+    &quot;accountId&quot;: &quot;884e26e4-6313-4525-907f-6e3f5fbfefdf&quot;
+  }
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -53,8 +80,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Tomcat Server.Tomcat 9.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "IT24103821",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/OOP/Driving_School_System",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -176,7 +204,9 @@
       <workItem from="1744303160509" duration="470000" />
       <workItem from="1746159873367" duration="1653000" />
       <workItem from="1746167569087" duration="1602000" />
-      <workItem from="1746209130492" duration="1852000" />
+      <workItem from="1746209130492" duration="2338000" />
+      <workItem from="1746388829701" duration="639000" />
+      <workItem from="1746390006131" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="create login page">
       <option name="closed" value="true" />
@@ -202,15 +232,45 @@
       <option name="project" value="LOCAL" />
       <updated>1746210674239</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update LoginServelet.java">
+      <option name="closed" value="true" />
+      <created>1746211245319</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746211245319</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="0053709a-c71e-47cf-a47c-8074f52e0480" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="0053709a-c71e-47cf-a47c-8074f52e0480">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="IT24103821" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -219,7 +279,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="IT24103821" />
                       </list>
                     </value>
                   </entry>
