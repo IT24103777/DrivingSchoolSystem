@@ -1,0 +1,37 @@
+/* File: src/main/webapp/css/login.css */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+.alert-error {
+    color: #dc3545;
+    padding: 10px;
+    margin-bottom: 1rem;
+    background: #f8d7da;
+    border-radius: 4px;
+}
+
+.btn-login {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}

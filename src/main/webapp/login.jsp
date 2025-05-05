@@ -5,33 +5,28 @@
   Time: 02:01
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+
+<%-- File: src/main/webapp/WEB-INF/views/login.jsp --%>
+<%@ page contentType="text/html;charset=UTF-8" %>
+
 <head>
-    <title>Driving School - Login</title>
-    <style>
-        body { font-family: Arial; margin: 50px; }
-        .login-form { width: 300px; margin: 0 auto; }
-        .error { color: red; }
-    </style>
+    <title>Login - ABC Driving School</title>
+    <link rel="stylesheet" href="login/css/style.css">
 </head>
 <body>
-<div class="login-form">
+<div class="container">
+    <h1>Welcome to ABC Driving School</h1>
     <h2>Login</h2>
-    <% if(request.getAttribute("error") != null) { %>
-    <p class="error"><%= request.getAttribute("error") %></p>
-    <% } %>
     <form action="login" method="post">
-        <div>
-            <label>Username:</label>
-            <input type="text" name="username" required>
-        </div>
-        <div>
-            <label>Password:</label>
-            <input type="password" name="password" required>
-        </div>
+        <label>
+            <input type="text" name="username" placeholder="Username" required/>
+        </label><br>
+        <label>
+            <input type="password" name="password" placeholder="Password" required/>
+        </label><br>
         <button type="submit">Login</button>
     </form>
+    <p style="color:red;"><%= request.getAttribute("error") != null ? request.getAttribute("error") : "" %></p>
+    <a href="register.jsp">Create Account</a> | <a href="forgot.jsp">Forgot Password?</a>
 </div>
 </body>
-</html>

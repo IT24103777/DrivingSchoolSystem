@@ -9,7 +9,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="904f4122-88ff-4925-bc90-608ce2ba8ae4" name="Changes" comment="update LoginServelet.java" />
+    <list default="true" id="904f4122-88ff-4925-bc90-608ce2ba8ae4" name="Changes" comment="update LoginServelet.java">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DrivingSchoolSystem/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DrivingSchoolSystem/ForgotpasswordServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DrivingSchoolSystem/PasswordResetServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DrivingSchoolSystem/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DrivingSchoolSystem/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DrivingSchoolSystem/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DrivingSchoolSystem/UserDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DrivingSchoolSystem/loginservlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/forgot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login/css/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login/html/forgot-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login/html/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login/js/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AdminServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LoginServelet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LogoutServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin-dashboard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login/html/signup.jsp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -66,12 +96,14 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.DrivingSchoolSystem [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 9.executor": "Run",
     "git-widget-placeholder": "IT24103821",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/OOP/Driving_School_System",
+    "last_opened_file_path": "D:/OOP/DrivingSchoolSystem/src/main/webapp/login/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,6 +116,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.DrivingSchoolSystem" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OOP\DrivingSchoolSystem\src\main\webapp\login\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OOP\DrivingSchoolSystem\src\main\webapp\login\css" />
+      <recent name="D:\OOP\DrivingSchoolSystem\src\main\webapp\login\img" />
+      <recent name="D:\OOP\DrivingSchoolSystem\src\main\webapp" />
+      <recent name="D:\OOP\DrivingSchoolSystem\src\main\webapp\WEB-INF" />
+      <recent name="D:\OOP\DrivingSchoolSystem\src\main\webapp\css" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.102" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="24">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -195,7 +243,9 @@
       <workItem from="1746167569087" duration="1602000" />
       <workItem from="1746209130492" duration="2338000" />
       <workItem from="1746388829701" duration="639000" />
-      <workItem from="1746390006131" duration="1573000" />
+      <workItem from="1746390006131" duration="1850000" />
+      <workItem from="1746392077696" duration="1005000" />
+      <workItem from="1746430109601" duration="13387000" />
     </task>
     <task id="LOCAL-00001" summary="create login page">
       <option name="closed" value="true" />
@@ -237,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746391514052</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update LoginServelet.java">
+      <option name="closed" value="true" />
+      <created>1746391746072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746391746072</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +305,7 @@
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="0053709a-c71e-47cf-a47c-8074f52e0480" value="TOOL_WINDOW" />
+        <entry key="6d344d1c-cbaf-4c3e-8140-e52c6af43181" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="TAB_STATES">
@@ -259,6 +318,23 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="IT24103821" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="6d344d1c-cbaf-4c3e-8140-e52c6af43181">
+          <value>
+            <State>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
